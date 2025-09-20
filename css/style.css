@@ -1,0 +1,232 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+/*header start*/
+
+header{
+    padding: 13px 0 23px 0;
+    /*border: 1px solid red;*/
+}
+
+.container{
+width: 85%;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo{
+width: 14%;
+    float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+ float: right;
+ width: 45%;
+}
+
+.menu ul{
+float: right;
+}
+
+.menu ul li{
+list-style: none;
+float: left;
+}
+
+.menu ul li a{
+    display: inline-block;
+    
+    float: left;
+    margin: 0 22px;
+    text-decoration: none;
+    /*font-family: 'poppins', sans-serif;*/
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+	background-color: #0d1354;
+	color: white;
+	padding: 12px;
+	border-radius: 5px;
+	box-shadow:  0 8px 12px rgba(0,0,0,0.25); ;
+}
+
+/*header ends*/
+
+/*banner start*/
+
+.banner{
+    padding: 10px 0;
+}
+
+.container2{
+width: 75%;
+margin: 0 auto;
+    overflow: hidden;
+}
+    
+
+.t_container{
+/*font-family: sans-serif;*/
+    float: left;
+    width: 37%;
+    padding: 32px 18px 11px 0;
+}
+
+
+.t_container h1{
+color: #0d1354 ;
+font-size: 41px;
+margin: 0;
+}
+
+.t_container h2{
+	
+	    color: #0d1354;
+    font-size: 41px;
+    margin: 5px 0 18px 0
+}
+
+.t_container p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+/* Button wrapper (optional, centers the button) */
+.button {
+  margin: 19px 186px 20px 0;
+  text-align: center;   /* centers inside the container */
+}
+
+/* Anchor styled as button */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #2096ff;   /* main blue */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #155a91; 
+    /* darker blue */
+    box-shadow:  0 8px 25px rgba(0,0,0,0.25);;
+}
+
+
+.img_container{
+width: 40%;
+    float: right;
+    padding:0 15px 20px 15px;
+}
+
+.img_container img{
+width: 100%;
+}
+
+/*banner end*/
+/*box start*/
+
+.box{
+	overflow: hidden;
+}
+
+.card{
+width: 27%;
+    overflow: hidden;
+     border: 2px solid #e0e0e0;        /* light gray border */
+  border-radius: 12px;              /* rounded corners (optional) */
+  padding: 18px 11px;               /* inner spacing */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 35px;
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover{
+transform: scale(1.03);  /* make it a little bigger */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);  /* darker shadow */
+  border-color: #1E73BE; 
+}
+
+.b_img{
+width: 20%;
+    float: left;
+    padding-left: 12px;
+}
+
+.b_img img{
+width: 100%;
+
+}
+
+.b_text{
+width: 57%;
+    float: right;
+    padding-right: 26px;
+    padding-top: 13px;
+
+}
+
+
+.b_text h2{
+color: #0d1354;
+    margin: 0;
+}
+
+.b_text p{
+word-spacing: 1px;
+    color: #0d1354;
+    line-height: 25px;
+}
+
+/*box end*/
+/*footer start*/
+
+.footer{
+    background-color: #008aff;
+    width: 100%;
+    height: 47px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.f_text{
+	font-size: 14px;
+	font-weight: 300;
+	font-family: sans-serif;
+    text-align: center;
+    color: white;
+    word-spacing: 6px;
+}
+
+.f_text p a{
+	color: white;
+	font-size: 15px;
+	
+
+}
